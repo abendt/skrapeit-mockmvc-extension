@@ -3,13 +3,11 @@ package it.skrape.mockmvc
 import com.nhaarman.mockitokotlin2.doReturn
 import com.nhaarman.mockitokotlin2.mock
 import it.skrape.matchers.toBe
-import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.Test
 import org.springframework.mock.web.MockHttpServletResponse
 import org.springframework.test.web.servlet.MvcResult
 import org.springframework.test.web.servlet.ResultActions
 
-@Disabled
 internal class MockMvcExtensionTest {
 
     private val aValidHtmlString = "<html><head><title>i'm the title</title></head></html>"
